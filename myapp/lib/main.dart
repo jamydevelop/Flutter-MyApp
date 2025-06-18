@@ -22,24 +22,15 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[600],
       ),
-      body: Center(
-        child: IconButton(
-            onPressed: (){
-              print("You click \"@\" button!");
-            },
-            icon: Icon(Icons.alternate_email,
-              color: Colors.amber,
-            )
-        ),
-        // child: ElevatedButton.icon(
-        //     onPressed: (){},
-        //     icon: Icon(Icons.email),
-        //     label: Text("Mail Me"),
-        //     style: ElevatedButton.styleFrom(
-        //       backgroundColor: Colors.amber
-        //     ),
-        // ),
+      body: Padding(
+          padding: EdgeInsets.all(90.0),
+          child: Text("Hallu"),
       ),
+      // Container(
+      //   padding: EdgeInsets.fromLTRB(10.0, 20.0, 30.0, 40.0),
+      //   color: Colors.grey[400],
+      //   child: Text("Hallu"),
+      // ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {  },
         backgroundColor: Colors.red[600],
