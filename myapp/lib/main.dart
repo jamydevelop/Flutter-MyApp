@@ -38,6 +38,7 @@ class Home extends StatelessWidget {
             padding: EdgeInsets.all(30.0),
             color: Colors.amber,
             child: Text("3"),
+            
           ),
         ],
       ),
