@@ -25,22 +25,33 @@ class Home extends StatelessWidget {
       body: Row(
         children: <Widget>[
           Expanded(
+              flex: 3,
+              child: Image.asset("assets/space-1.webp")
+          ),
+          Expanded(
+            flex: 1,
             child: Container(
               padding: EdgeInsets.all(30.0),
               color: Colors.cyan,
               child: Text("1"),
             ),
           ),
-          Container(
-            padding: EdgeInsets.all(30.0),
-            color: Colors.pinkAccent,
-            child: Text("2"),
+          Expanded(
+            flex: 1,
+            child: Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.pinkAccent,
+              child: Text("2"),
+            ),
           ),
-          Container(
-            padding: EdgeInsets.all(30.0),
-            color: Colors.amber,
-            child: Text("3"),
-            
+          Expanded(
+            flex: 1,
+            child: Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.amber,
+              child: Text("3"),
+
+            ),
           ),
         ],
       ),
